@@ -3,6 +3,7 @@
 }
 
 h2 small{
+	font-size:0.7em;
 	font-weight: lighter;
 	color:#B5B4B4;
 }
@@ -13,6 +14,13 @@ img{
 p{
 	max-width:600px;
 }
+
+p.lead{
+	font-size:1.25em;
+	line-height: 1.5;
+	font-weight: lightest;
+}
+
 #logo{
 	margin:20px auto;
 	text-indent:-10000px;
@@ -32,7 +40,7 @@ p{
 
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 940px) {
 	.col{
 		padding-right:20px;
 
