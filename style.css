@@ -1,0 +1,40 @@
+.mainContainer{
+	margin-top: 10px;
+}
+
+h2 small{
+	font-weight: lighter;
+	color:#B5B4B4;
+}
+
+img{
+	max-width:100%;
+}
+p{
+	max-width:600px;
+}
+#logo{
+	margin:20px auto;
+	text-indent:-10000px;
+	width: 234px;
+	height: 131px;
+	background-image: url('img/bg-logo-234x131.png');
+	background-repeat: no-repeat;
+	background-width: 234px;
+	background-height: 131px;
+}
+
+.col{
+	padding-left:20px;
+}
+
+.module{
+
+}
+
+@media all and (max-width: 767px) {
+	.col{
+		padding-right:20px;
+
+	}
+}
